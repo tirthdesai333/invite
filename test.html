@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to School? Maybe...</title>
+    <style>
+        body {
+            background-color: #FAF7F5;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            color: #FF5733;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            position: relative;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+            text-shadow: 2px 2px #FFEB3B;
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        p {
+            font-size: 1.5rem;
+            margin: 5px;
+            line-height: 1.5;
+        }
+        img {
+            width: 50%;
+            border: 10px dashed #FF5733;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+            filter: hue-rotate(90deg);
+        }
+        .glitch {
+            font-size: 2rem;
+            color: #FFFFFF;
+            text-shadow: 0 0 5px #FF5733, 0 0 10px #FF5733, 0 0 20px #FF5733, 0 0 40px #FF5733, 0 0 80px #FF5733;
+            animation: glitch 1s infinite;
+        }
+        @keyframes glitch {
+            0% {
+                transform: translate(0);
+            }
+            20% {
+                transform: translate(-5px, 5px);
+            }
+            40% {
+                transform: translate(-5px, -5px);
+            }
+            60% {
+                transform: translate(5px, 5px);
+            }
+            80% {
+                transform: translate(5px, -5px);
+            }
+            100% {
+                transform: translate(0);
+            }
+        }
+        .content {
+            border: 5px dotted #FF5733;
+            padding: 20px;
+            margin-top: 20px;
+            transform: rotate(-3deg);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #333;
+        }
+        .hashtag {
+            font-size: 3rem;
+            color: #FFEB3B;
+            margin: 20px 0;
+            text-transform: uppercase;
+        }
+        .watermark {
+            position: absolute;
+            bottom: 25%;
+            left: 75%;
+            transform: translate(-50%, 50%) rotate(-30deg);
+            font-size: 6rem;
+            color: #FF5733;
+            white-space: nowrap;
+            z-index: 1;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 BACK TO SCHOOL? LOL 😂</h1>
+    <p class="glitch">Terrace, Slutty Summer, Elementary Vibes</p>
+    <p class="hashtag">#GenZrocks!</p>
+    <div class="content">
+        <p>✏️ Grab your paper and pencil, you nerds! 📝</p>
+        <p>📅 When? Who cares! Just show up on Friday at 8pm.</p>
+        <p>📍 Where? Uh, I guess it's at 204 Fowler Drive.</p>
+        <p>🍹 Pregame? Obviously. Who even asks that?</p>
+        <p>🔆 Sunset vibes, blackout memories.</p>
+        <p>😎 Cool kids only.</p>
+    </div>
+    <img src="IMG_1888.png" alt="Random Party Pic">
+    <div class="footer">
+        <p>Disclaimer: We have no idea what's happening. See you there or don't, whatever.</p>
+    </div>
+    <div class="watermark">Tirth Studios (Express)</div>
+</body>
+</html>
